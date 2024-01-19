@@ -7,41 +7,36 @@
     <link rel="stylesheet" href="css/output.css">
 </head>
 <body>
+
+
    <!-- Header start -->
-   <section id="home" class="pt-16 bg-gradient-to-tl from-violet-100 via-40%  via-sky-100 via-50% to-red-100 to-80% lg:pt-0">
-    <div class="container">
+   <section id="home" class=" bg-gradient-to-tl from-violet-100 via-40%  via-sky-100 via-50% to-red-100 to-80% lg:pt-0">
+    <div class="relative">
+      <img src="asset/bg.webp" alt="" class=" hidden lg:flex absolute bottom-0 left-0">
+      <div class="container lg:pt-24 pt-12 md:pb-28">
       <div class="flex flex-wrap">
         <div class=" w-full  mx-auto px-5 py-3 lg:w-1/2">
-        <div>
-          <h1 class="text-2xl font-bold text-dark   sm:text-4xl lg:text-6xl  lg:max-w-full  lg:mt-32 ">
-            Hallo Semuaa, Saya <br> <span class="text-textKu text-5xl mt-16 sm:text-6xl lg:text-7xl" style="text-shadow: 2px 3px 2px rgb(192, 185, 192)">Vela Putri</span>
+        <div class="lg:absolute">
+          <h1 class="text-2xl font-bold text-dark   sm:text-4xl lg:text-7xl  lg:max-w-full  lg:mt-28 ">
+            Hallo Semuaa, Saya <br> <span class="text-textKu text-5xl mt-16 sm:text-6xl lg:text-9xl" style="text-shadow: 2px 3px 2px rgb(192, 185, 192)">Vela Putri</span>
           </h1>
-          <h2 class="text-slate-600 text-lg font-semibold mt-2 sm:text-xl lg:text-2xl lg:mt-5">Frontend Developer & <span class="text-slate-700">Make-up Consultan</span>
+          <h2 class="text-slate-600 text-lg font-semibold mt-2 sm:text-xl lg:text-6xl lg:mt-5 ">Frontend Developer & <br class="hidden lg:flex"> <span class="text-slate-700">Make-up Consultan</span>
           </h2>
-        </div>
-         <div>
-          <p class="text-slate-500 mt-5 leading-relaxed font-medium  lg:text-lg lg:text-slate-500 lg:mt-6">
-            Saya Vela, 20 tahun (saat cv ini dibuat), lulusan SMA Negeri 6
-            Malang 2021, berdomisili di Kota Malang.
-            Kepribadian saya disiplin, kreatif, dan percaya diri,
-            dengan kemampuan Communication dan selling
-            yang baik. Juga memiliki keahlian sebagai
-            <span class="text-dark font-bold">Frontend Developer</span>.
-            
+          <p class="text-slate-500 mt-5 leading-relaxed font-medium  lg:text-xl lg:text-slate-500 lg:mt-6 ">
+            Seorang frontend developer yang merajut inspirasi menjadi karya,  menciptakan <br class="hidden lg:flex">
+            website yang bukan sekadar tumpukan kode, melainkan  sebuah masterpiece <br class="hidden lg:flex">
+            digital yang memukau dan menginspirasi.
           </p>
-         </div>
-          <div>
-            <div class="flex items-start space-x-3">
-              <button
-                class="font-semibold text-white bg-[#FDB3CA] [#ef93af]  rounded-full shadow-lg py-2 px-5 my-10 block hover:bg-[#f5a9c0]
-                 active:bg-[#ef93af] focus:ring focus:ring-[#f5d0db] ring-1 ring-slate-900/5 space-y-4 transition duration-300 ease-in-out
-                 lg:text-lg"
-              >
-                Yuk kenal lebih dekat
-              </button>
-              
-            </div>
+          <div class="flex items-start space-x-3 lg:absolute">
+            <button
+              class="font-semibold text-white bg-[#FDB3CA] [#ef93af]  rounded-full shadow-lg py-2 px-5 my-10 block hover:bg-[#f5a9c0]
+               active:bg-[#ef93af] focus:ring focus:ring-[#f5d0db] ring-1 ring-slate-900/5 space-y-4 transition duration-300 ease-in-out
+               lg:text-lg "
+            >
+              Yuk kenal lebih dekat <br class="hidden lg:flex">
+            </button> 
           </div>
+        </div>
         </div>
         <div class="w-full self-end px-4 lg:w-1/2 mx-auto">
           <div class="mt-10 ">
@@ -49,10 +44,41 @@
           </div>
       </div>
     </div>
+  </div>
 
 
   </section >
 <section>
    <!-- Header end -->
+
+   <!-- section 1 profil start -->
+ <section class="bg-[#FFEFF5]">
+  <div class="container mb-10 pt-24">
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 md:flex md:flex-row-reverse">
+        <div class="w-full mx-auto px-5 py-3 lg:pt-20">
+            <h1 class="text-textKu text-sm font-black sm:text-lg lg:text-4xl md:text-end">
+                Tentang Saya
+            </h1>
+            <h1 class="text-2xl text-semibold font-bold sm:text-4xl lg:text-7xl lg:mt-5 md:text-end">
+                Profil Saya
+            </h1>
+            <div class="grid grid-cols-11 mt-5 md:mt-8">
+                <div class="col-span-11">
+                    <h1 class=" lg:text-2xl text-slate-500 md:text-end">
+                      Saya Vela, 20 tahun (saat cv ini dibuat), lulusan SMA Negeri 6 Malang
+                      2021, berdomisili di Kota Malang. Kepribadian saya disiplin, kreatif,
+                      dan percaya diri, dengan kemampuan Communication dan selling yang baik.
+                      Juga memiliki keahlian sebagai Frontend Developer.
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="w-full mx-auto flex items-center">
+            <img src="asset/anima.webp" class="w-4/5 mx-auto pt-2.5" alt="">
+        </div>
+    </div>
+  </div>
+ </section>
+   <!-- section 1 profil end -->
 </body>
 </html>
