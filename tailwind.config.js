@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         textKu: '#C26582',
         dark: '#1e293b',
-        semibold: '#334155'
+        semibold: '#334155',
+        dasar: '#64748b',
       },
       screens: {
         '2xl': '1520px'
