@@ -8,9 +8,82 @@
 </head>
 <body>
 
+  <!-- navbar start -->
+  <header class="bg-transparent absolute  top-0 left-0  w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home">
+            <img src="asset/logo.webp" 
+            alt=""
+            class="w-20 block py-6 sm:w-20 md:w-24 lg:w-24">
+          </a>
+        </div>
+        <div class="px-4 flex items-center ">
+          <button id="hamburger" name="hamburger" type="button" 
+          class="block absolute right-4 lg:hidden">
+          <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+          <span class="hamburger-line transition duration-300 ease-in-out"></span>
+          <span class="hamburger-line transition duration-300 ease-in-out  origin-bottom-left"></span>
+        </button>
+        
+        
+        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg
+        rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+        <ul class="block lg:flex">
+          <li class="group">
+            <a href="#home" class="text-base text-black py-2 mx-8 flex
+            group-hover:text-textKu font-semibold  lg:text-lg">Home</a>
+          </li>
+          <li class="group">
+            <a href="#fitur" class="text-base text-black py-2 mx-8 flex
+            group-hover:text-textKu font-semibold lg:text-lg">Fitur</a>
+          </li>
+          <li class="group">
+              <a href="#harga" class="text-base text-black py-2 mx-8 flex
+              group-hover:text-textKu font-semibold lg:text-lg">Harga</a>
+            </li>
+            <li class="group">
+              <a href="#ulasan" class="text-base text-black py-2 mx-8 flex
+              group-hover:text-textKu font-semibold lg:text-lg">Ulasan</a>
+            </li>
+            <li class="group">
+              <a href="#faq" class="text-base text-black py-2 mx-8 flex
+              group-hover:text-textKu font-semibold lg:text-lg">FAQ</a>
+            </li>
+            <li class="group">
+              <a href="#Download" class="text-base text-black py-2 mx-8 flex
+              group-hover:text-textKu font-semibold lg:hidden ">Download</a>
+            </li>
+            <li class="group ">
+              <select class="select-bar text-base text-black py-2 mx-8 flex
+              group-hover:text-textKu font-semibold bg-transparent" 
+              id="language" 
+              onchange="selectLanguage()">
+                  <option selected value="IN" class="group-hover:text-textKu">IN</option>
+                  <option value="EN" class="group-hover:text-textKu" >EN</option>
+              </select>
+          </li>
+          </ul>
+        </nav>
+        </div>
+        <div class="m-auto sm:m-0">
+        <button
+        class="font-semibold text-white bg-violet-300 rounded-full shadow-lg py-1 px-4  hover:bg-violet-400
+         active:bg-violet-700 focus:ring focus:ring-violet-200 ring-1 ring-slate-900/10 space-y-4 transition duration-300
+         -top-5 left-1/2 -translate-x-1/2  sm:py-2 sm:px-5  lg:text-lg "
+      >
+        Download
+      </button>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- navbar end -->
+
 
    <!-- Header start -->
-   <section id="home" class=" bg-gradient-to-tl from-violet-100 via-40%  via-sky-100 via-50% to-red-100 to-80% lg:pt-0">
+   <section id="home" class="pt-8 bg-gradient-to-tl from-violet-100 via-40%  via-sky-100 via-50% to-red-100 to-80% lg:pt-0">
     <div class="relative">
       <img src="asset/bg.webp" alt="" class=" hidden lg:flex absolute bottom-0 left-0">
       <div class="container lg:pt-24 pt-12 md:pb-28">
@@ -147,5 +220,8 @@
 
  </section>
    <!-- section 1 profil end -->
+
+
+   <script src="./js/script.js"></script>
 </body>
 </html>
