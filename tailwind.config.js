@@ -16,6 +16,7 @@ module.exports = {
         pink: '#FFEFF5',
         biru: '#3E9EF7',
         semiPink: '#f9ccdd',
+        birumuda: '#DEEFFF',
       },
       screens: {
         '2xl': '1520px'
