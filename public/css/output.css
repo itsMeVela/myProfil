@@ -1110,18 +1110,6 @@ video {
   padding-top: 2rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-40 {
-  padding-right: 10rem;
-}
-
-.pr-24 {
-  padding-right: 6rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1631,26 +1619,6 @@ video {
     padding-bottom: 2.5rem;
   }
 
-  .sm\:pl-8 {
-    padding-left: 2rem;
-  }
-
-  .sm\:pl-80 {
-    padding-left: 20rem;
-  }
-
-  .sm\:pr-80 {
-    padding-right: 20rem;
-  }
-
-  .sm\:pr-24 {
-    padding-right: 6rem;
-  }
-
-  .sm\:pr-1 {
-    padding-right: 0.25rem;
-  }
-
   .sm\:pr-16 {
     padding-right: 4rem;
   }
@@ -1673,11 +1641,6 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: rgb(37 99 235 / var(--tw-text-opacity));
   }
 }
 
@@ -1759,11 +1722,6 @@ video {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-green-600 {
-    --tw-text-opacity: 1;
-    color: rgb(22 163 74 / var(--tw-text-opacity));
   }
 }
 
